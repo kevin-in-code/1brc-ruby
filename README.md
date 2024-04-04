@@ -9,8 +9,8 @@ Ruby edition of the [1BRC](https://github.com/gunnarmorling/1brc/tree/main) Java
 
 bundle install
 
-# 10 million measurements, ~10 seconds to generate on an M1 Macbook Pro.
-bundle exec ruby create_measurements.rb 10000000
+# 1 million measurements, ~1.5 seconds to generate on an M1 Macbook Pro.
+bundle exec ruby create_measurements.rb 1000000
 
 # Rename for use with the spec
 mv measurements.txt measurements_test.txt
